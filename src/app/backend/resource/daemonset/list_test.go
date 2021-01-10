@@ -23,12 +23,12 @@ import (
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/kubernetes/dashboard/v2/src/app/backend/api"
-	metricapi "github.com/kubernetes/dashboard/v2/src/app/backend/integration/metric/api"
-	"github.com/kubernetes/dashboard/v2/src/app/backend/resource/common"
-	"github.com/kubernetes/dashboard/v2/src/app/backend/resource/dataselect"
+	"github.com/lixianyang/dashboard/v2/src/app/backend/api"
+	metricapi "github.com/lixianyang/dashboard/v2/src/app/backend/integration/metric/api"
+	"github.com/lixianyang/dashboard/v2/src/app/backend/resource/common"
+	"github.com/lixianyang/dashboard/v2/src/app/backend/resource/dataselect"
 
-	"github.com/kubernetes/dashboard/v2/src/app/backend/errors"
+	"github.com/lixianyang/dashboard/v2/src/app/backend/errors"
 )
 
 func TestGetDaemonSetListFromChannels(t *testing.T) {

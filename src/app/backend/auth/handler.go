@@ -19,9 +19,9 @@ import (
 
 	"github.com/emicklei/go-restful/v3"
 
-	authApi "github.com/kubernetes/dashboard/v2/src/app/backend/auth/api"
-	"github.com/kubernetes/dashboard/v2/src/app/backend/errors"
-	"github.com/kubernetes/dashboard/v2/src/app/backend/validation"
+	authApi "github.com/lixianyang/dashboard/v2/src/app/backend/auth/api"
+	"github.com/lixianyang/dashboard/v2/src/app/backend/errors"
+	"github.com/lixianyang/dashboard/v2/src/app/backend/validation"
 )
 
 // AuthHandler manages all endpoints related to dashboard auth, such as login.

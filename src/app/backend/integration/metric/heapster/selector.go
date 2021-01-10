@@ -18,8 +18,8 @@ import (
 	"fmt"
 
 	"github.com/emicklei/go-restful/v3/log"
-	"github.com/kubernetes/dashboard/v2/src/app/backend/api"
-	metricapi "github.com/kubernetes/dashboard/v2/src/app/backend/integration/metric/api"
+	"github.com/lixianyang/dashboard/v2/src/app/backend/api"
+	metricapi "github.com/lixianyang/dashboard/v2/src/app/backend/integration/metric/api"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 )

@@ -1,4 +1,4 @@
-module github.com/kubernetes/dashboard/v2
+module github.com/lixianyang/dashboard/v2
 
 go 1.15
 

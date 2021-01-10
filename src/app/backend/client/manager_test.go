@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	restful "github.com/emicklei/go-restful/v3"
-	"github.com/kubernetes/dashboard/v2/src/app/backend/args"
-	"github.com/kubernetes/dashboard/v2/src/app/backend/errors"
+	"github.com/lixianyang/dashboard/v2/src/app/backend/args"
+	"github.com/lixianyang/dashboard/v2/src/app/backend/errors"
 	"k8s.io/client-go/rest"
 )
 
