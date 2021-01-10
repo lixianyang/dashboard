@@ -1,4 +1,4 @@
-module github.com/kubernetes/dashboard
+module github.com/kubernetes/dashboard/v2
 
 go 1.15
 
@@ -14,9 +14,9 @@ require (
 	gopkg.in/igm/sockjs-go.v2 v2.1.0
 	gopkg.in/square/go-jose.v2 v2.4.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.20.1
-	k8s.io/apiextensions-apiserver v0.20.1
-	k8s.io/apimachinery v0.20.1
-	k8s.io/client-go v0.20.1
+	k8s.io/api v0.18.14
+	k8s.io/apiextensions-apiserver v0.18.14
+	k8s.io/apimachinery v0.18.14
+	k8s.io/client-go v0.18.14
 	k8s.io/heapster v1.5.4
 )
